@@ -1,0 +1,35 @@
+.category-card-list-component * {
+  box-sizing: border-box;
+}
+
+.category-card-list-component p,
+.category-card-list-component .card-body {
+  text-align: center;
+}
+
+.category-card-list-component span {
+  font-size: 1.2rem;
+}
+
+.category-card-list-component h2 {
+  margin: 50px 0;
+}
+
+.category-card-list-component .slick-slide > div {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.category-card-list-component .container.categories-carousel {
+  display: flex;
+  justify-content: center;
+}
+
+.category-card-list-component div.slider-container {
+  width: 70%;
+}
+
+.category-card-list-component .slick-prev:before,
+.category-card-list-component .slick-next:before {
+  color: black;
+}
